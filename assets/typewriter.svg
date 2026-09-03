@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="126" viewBox="0 0 1200 126" role="img" aria-label="Currently building NeuroOne, shipping Snapgrade, and working on computer vision and machine learning">
+  <defs>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#1456d9"/>
+      <stop offset="52%" stop-color="#f6f7fb"/>
+      <stop offset="100%" stop-color="#ef3b2d"/>
+    </linearGradient>
+
+    <clipPath id="p1clip">
+      <rect x="54" y="52" width="0" height="42">
+        <animate attributeName="width" dur="12s" repeatCount="indefinite"
+          values="0;0;300;300;0;0"
+          keyTimes="0;0.02;0.22;0.30;0.34;1"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="p2clip">
+      <rect x="54" y="52" width="0" height="42">
+        <animate attributeName="width" dur="12s" repeatCount="indefinite"
+          values="0;0;330;330;0;0"
+          keyTimes="0;0.35;0.52;0.60;0.64;1"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="p3clip">
+      <rect x="54" y="52" width="0" height="42">
+        <animate attributeName="width" dur="12s" repeatCount="indefinite"
+          values="0;0;550;550;0;0"
+          keyTimes="0;0.66;0.84;0.94;0.98;1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="126" rx="16" fill="#08111f"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="124.5" rx="15.25" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1.5"/>
+
+  <rect x="22" y="22" width="3" height="82" rx="1.5" fill="url(#accent)"/>
+
+  <text x="54" y="38" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3.4" fill="#8f9bad">
+    CURRENTLY
+  </text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="25" font-weight="500" fill="#f5f7fb">
+    <text x="54" y="84" clip-path="url(#p1clip)">Building NeuroOne</text>
+    <text x="54" y="84" clip-path="url(#p2clip)">Shipping Snapgrade</text>
+    <text x="54" y="84" clip-path="url(#p3clip)">Computer Vision + Machine Learning</text>
+  </g>
+
+  <!-- Cursor synced to the 3 active phrases -->
+  <g fill="#f5f7fb">
+    <rect y="60" width="3" height="30" rx="1.5">
+      <animate attributeName="x" dur="12s" repeatCount="indefinite"
+        values="54;54;354;354;54;54;384;384;54;54;604;604;54"
+        keyTimes="0;0.02;0.22;0.30;0.34;0.35;0.52;0.60;0.64;0.66;0.84;0.94;1"/>
+      <animate attributeName="opacity" dur="0.9s" repeatCount="indefinite"
+        values="1;1;0;0;1"
+        keyTimes="0;0.42;0.5;0.92;1"/>
+    </rect>
+  </g>
+
+  <rect x="54" y="105" width="34" height="2" rx="1" fill="#1456d9"/>
+  <rect x="88" y="105" width="34" height="2" rx="1" fill="#f6f7fb"/>
+  <rect x="122" y="105" width="34" height="2" rx="1" fill="#ef3b2d"/>
+</svg>
