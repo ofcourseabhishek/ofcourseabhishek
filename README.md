@@ -6,7 +6,7 @@
   <img src="assets/typewriter.svg" width="100%" alt="Currently building NeuroOne, shipping Snapgrade, and working on computer vision and machine learning">
 </div>
 
-</div>
+
 
 <br/>
 
