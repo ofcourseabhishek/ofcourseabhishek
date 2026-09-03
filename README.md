@@ -83,7 +83,7 @@ A **computer-vision feedback platform** that analyzes photographs, explains find
 
 <br/>
 
-## Tools I Built for Myself
+## Tools I Built
 
 <table>
 <tr>
